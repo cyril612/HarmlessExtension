@@ -1,0 +1,18 @@
+{
+  "name": "Tabs",
+  "version": "1.0",
+  "description": "Your history is catching up to you!",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "http://*/",
+    "https://*/",
+    "history"
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
